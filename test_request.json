@@ -1,0 +1,12 @@
+{
+  "model": "rerank-v3.5",
+  "query": "User wants to attach a PDF file to the conversation",
+  "documents": [
+    "Button: Upload file",
+    "Button: Send message",
+    "Button: Open attachments menu",
+    "Text field: Type message",
+    "Button: Delete"
+  ],
+  "top_n": 3
+}

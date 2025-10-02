@@ -1,0 +1,21 @@
+INFO:     Started server process [20340]
+INFO:     Waiting for application startup.
+INFO:__main__:Starting reranking API...
+INFO:__main__:Initializing reranker on: cuda
+INFO:__main__:GPU: NVIDIA GeForce RTX 4090
+INFO:__main__:Loading model: Qwen/Qwen3-Reranker-0.6B
+INFO:__main__:\u2713 Tokenizer loaded (pad_token_id: 151643)
+INFO:__main__:Loading with FP16 + GPU...
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO:__main__:\u2713 Model loaded in 10.39s
+INFO:__main__:Warming up...
+You're using a Qwen2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+C:\Users\nasan\.conda\envs\rag\lib\site-packages\transformers\tokenization_utils_base.py:2752: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+INFO:__main__:\u2713 Ready
+INFO:__main__:API ready
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8888): only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO:     Waiting for application shutdown.
+INFO:__main__:Shutting down...
+INFO:     Application shutdown complete.
