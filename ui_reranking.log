@@ -7,3 +7,39 @@
 2025-10-02 14:20:20,999 - __main__ - INFO - [ac028d8f] Task: 'test task' | Top: 'test' (0.2214) | Time: 676.0ms
 2025-10-02 14:20:21,004 - __main__ - INFO - API ready for UI element reranking
 2025-10-02 14:20:37,984 - __main__ - INFO - Shutting down...
+2025-10-02 14:21:32,319 - __main__ - INFO - Starting UI Reranking API...
+2025-10-02 14:21:32,647 - __main__ - INFO - Initializing UI reranker on: cuda
+2025-10-02 14:21:32,660 - __main__ - INFO - GPU: NVIDIA GeForce RTX 4090
+2025-10-02 14:21:32,660 - __main__ - INFO - Loading model: Qwen/Qwen3-Reranker-0.6B
+2025-10-02 14:21:34,197 - __main__ - INFO - [OK] Tokenizer loaded (pad_token_id: 151643)
+2025-10-02 14:21:34,198 - __main__ - INFO - Loading with FP16 + GPU...
+2025-10-02 14:21:40,584 - __main__ - INFO - [OK] Model loaded in 7.92s
+2025-10-02 14:21:40,584 - __main__ - INFO - Warming up...
+2025-10-02 14:21:41,069 - __main__ - INFO - [ca9abb9c] Task: 'test task' | Top: 'test' (0.2214) | Time: 484.2ms
+2025-10-02 14:21:41,069 - __main__ - INFO - [OK] Ready for UI element reranking
+2025-10-02 14:21:41,069 - __main__ - INFO - API ready for UI element reranking
+2025-10-02 14:37:44,017 - __main__ - INFO - [312fd6f3] Task: 'click on sign up button' | Top: 'Sign up' (0.9912) | Time: 368.7ms
+2025-10-02 14:37:46,782 - __main__ - INFO - [e58a6240] Task: 'publish the form' | Top: 'Publish' (0.9927) | Time: 214.9ms
+2025-10-02 14:37:49,533 - __main__ - INFO - [b51cef92] Task: 'create a new form from scratch' | Top: 'Press Enter to start from scratch' (0.9409) | Time: 214.5ms
+2025-10-02 14:37:52,308 - __main__ - INFO - [36ed2607] Task: 'use a template' | Top: 'Use a template' (0.9878) | Time: 221.1ms
+2025-10-02 14:37:55,103 - __main__ - INFO - [65296249] Task: 'preview the form' | Top: 'Preview' (0.8989) | Time: 245.2ms
+2025-10-02 14:37:57,967 - __main__ - INFO - [3eef53f7] Task: 'customize the form' | Top: 'Customize' (0.9858) | Time: 327.7ms
+2025-10-02 14:38:00,731 - __main__ - INFO - [f1c23e4d] Task: 'edit form title' | Top: 'Form title' (0.9570) | Time: 209.3ms
+2025-10-02 14:38:03,513 - __main__ - INFO - [c45c92f2] Task: 'get help and documentation' | Top: 'Learn about Tally Pro' (0.8672) | Time: 241.5ms
+2025-10-02 14:38:48,959 - __main__ - INFO - [abc73a66] Task: 'click on sign up button' | Top: 'Sign up' (0.9912) | Time: 345.1ms
+2025-10-02 14:39:20,970 - __main__ - INFO - [e7558bb7] Task: 'click on sign up button' | Top: 'Sign up' (0.9912) | Time: 313.7ms
+2025-10-02 14:39:23,871 - __main__ - INFO - [01ec548b] Task: 'publish the form' | Top: 'Publish' (0.9927) | Time: 341.1ms
+2025-10-02 14:39:26,696 - __main__ - INFO - [7a586ab8] Task: 'create a new form from scratch' | Top: 'Press Enter to start from scratch' (0.9409) | Time: 278.5ms
+2025-10-02 14:39:29,471 - __main__ - INFO - [5df90425] Task: 'use a template' | Top: 'Use a template' (0.9878) | Time: 227.7ms
+2025-10-02 14:39:32,276 - __main__ - INFO - [1ed7874c] Task: 'preview the form' | Top: 'Preview' (0.8989) | Time: 259.3ms
+2025-10-02 14:39:35,134 - __main__ - INFO - [1f2ab7de] Task: 'customize the form' | Top: 'Customize' (0.9858) | Time: 301.7ms
+2025-10-02 14:39:37,909 - __main__ - INFO - [421e456f] Task: 'edit form title' | Top: 'Form title' (0.9570) | Time: 220.5ms
+2025-10-02 14:39:40,682 - __main__ - INFO - [81979d09] Task: 'get help and documentation' | Top: 'Learn about Tally Pro' (0.8672) | Time: 223.6ms
+2025-10-02 14:40:14,552 - __main__ - INFO - [e0ce8ad4] Task: 'click on sign up button' | Top: 'Sign up' (0.9912) | Time: 301.4ms
+2025-10-02 14:40:17,298 - __main__ - INFO - [52e572ac] Task: 'publish the form' | Top: 'Publish' (0.9927) | Time: 190.3ms
+2025-10-02 14:40:20,091 - __main__ - INFO - [9426aaef] Task: 'create a new form from scratch' | Top: 'Press Enter to start from scratch' (0.9409) | Time: 231.8ms
+2025-10-02 14:40:22,876 - __main__ - INFO - [fa9dbc5c] Task: 'use a template' | Top: 'Use a template' (0.9878) | Time: 238.4ms
+2025-10-02 14:40:25,667 - __main__ - INFO - [0ab60ce5] Task: 'preview the form' | Top: 'Preview' (0.8989) | Time: 242.1ms
+2025-10-02 14:40:28,453 - __main__ - INFO - [75ddc4eb] Task: 'customize the form' | Top: 'Customize' (0.9858) | Time: 229.9ms
+2025-10-02 14:40:31,254 - __main__ - INFO - [2f1a5063] Task: 'edit form title' | Top: 'Form title' (0.9570) | Time: 246.6ms
+2025-10-02 14:40:34,059 - __main__ - INFO - [9a5507ab] Task: 'get help and documentation' | Top: 'Learn about Tally Pro' (0.8672) | Time: 255.5ms
