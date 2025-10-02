@@ -159,3 +159,4 @@ if __name__ == "__main__":
         print("Run: python qwen_rerank_api.py")
     except Exception as e:
         print(f"\n❌ ERROR: {e}")
+
